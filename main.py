@@ -5,7 +5,7 @@ from credentials import ssid, password
 # Configure the serial port
 port = 'COM9'  # Replace with the appropriate serial port for your system
 baudrate = 115200  # Set the baud rate to match your ESP8266 configuration
-# some AT commands would take a while (connecting to network, listing avaialable networks)
+# some AT commands would take a while (connecting to network, listing available networks)
 timeout = 15
 
 
