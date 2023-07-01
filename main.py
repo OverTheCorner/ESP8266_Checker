@@ -4,6 +4,7 @@ import time
 # Configure the serial port
 port = 'COM9'  # Replace with the appropriate serial port for your system
 baudrate = 115200  # Set the baud rate to match your ESP8266 configuration
+# some AT commands would take a while (connecting to network, listing avaialable networks)
 timeout = 15
 
 # Diagnostic WiFi Credentials
