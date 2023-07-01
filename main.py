@@ -44,3 +44,4 @@ print(send_at_command('AT+PING="8.8.8.8"'))
 
 # Close the serial port
 ser.close()
+# GFVA
